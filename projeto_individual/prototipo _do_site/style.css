@@ -1,0 +1,574 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+
+*{
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto';
+}
+
+
+
+*{
+    font-family: 'Roboto';
+}
+
+body{
+    background: #f1fbff;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-padding{
+    padding: 30px 0;
+}
+
+/*carrosel*/
+
+.carousel-item{
+    height: 100vt;
+    min-height: 300px;
+}
+.carousel-caption{
+    bottom: 220px;
+    z-index: 2;
+}
+.carousel-caption h5{
+    font-size: 45px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 25px;
+}
+
+.carousel-caption p{
+    width: 60%;
+    margin: auto;
+    font-size: 18px;
+    line-height: 1.9;
+}
+.carousel-inner::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,0.7);
+    z-index: 1;
+}
+
+/* fim_carrossel*/
+
+/* nav-bar*/
+.navbar-nav a{
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.navbar-light .navbar-brand{
+    color: #000;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.navbar-light .navbar-brand:focus,
+.navbar-light .navbar-brand:hover{
+    color:#000;
+}
+
+
+
+.w-100{
+    height: 100vh;
+}
+
+/* Fim da navbar*/
+
+
+/* destinos e info */
+
+
+
+
+
+.destino .card {
+	padding: 5%;
+    box-shadow: 15px 15px 40px rgba(0, 0, 0, 0.15);
+
+}
+
+ /*pagina destino*/
+ .section {
+	position: relative;
+	height: 90vh;
+}
+
+.section .section-center {
+	position: absolute;
+	top: 50%;
+	left: 0;
+	right: 0;
+	-webkit-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+
+#booking {
+	font-family: 'Roboto';
+	background-image: url('cards/flori.png');
+	background-size: cover;
+	background-position: center;
+}
+
+#booking::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    background: rgba(255, 255, 255, 0.15);
+}
+
+.booking-form {
+	background: #fff;
+	border-radius: 2px;
+}
+
+.booking-form>form .row.no-margin {
+	margin-right: 0px;
+	margin-left: 0px;
+}
+
+.booking-form>form .row.no-margin>[class*="col-"] {
+	padding-right: 0px;
+	padding-left: 0px;
+}
+
+.booking-form .form-group {
+	position: relative;
+	padding: 25px;
+	margin-bottom: 0px;
+}
+
+.booking-form .form-group:after {
+	content: '';
+	background: rgba(129, 131, 144, 0.15);
+	position: absolute;
+	top: 25px;
+	bottom: 0;
+	right: 0px;
+	width: 2px;
+	height: 75px;
+}
+
+.booking-form .form-control {
+	background-color: transparent;
+	border-radius: 0px;
+	border: none;
+	height: 50px;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	font-size: 20px;
+	color: #222;
+	font-weight: 400;
+	padding: 0;
+}
+
+.booking-form .form-control::-webkit-input-placeholder {
+	color: #818390;
+}
+
+.booking-form .form-control:-ms-input-placeholder {
+	color: #818390;
+}
+
+.booking-form .form-control::placeholder {
+	color: #818390;
+}
+
+.booking-form input[type="date"].form-control:invalid {
+	color: #818390;
+}
+
+.booking-form select.form-control {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+}
+
+.booking-form select.form-control+.select-arrow {
+	position: absolute;
+	right: 0px;
+	bottom: 30px;
+	width: 32px;
+	line-height: 32px;
+	height: 32px;
+	text-align: center;
+	pointer-events: none;
+	color: #818390;
+	font-size: 14px;
+}
+
+.booking-form select.form-control+.select-arrow:after {
+	content: '\279C';
+	display: block;
+	-webkit-transform: rotate(90deg);
+	transform: rotate(90deg);
+}
+
+.booking-form .form-label {
+	color: #4583c2;
+	display: block;
+	font-weight: 400;
+	height: 25px;
+	line-height: 25px;
+	font-size: 14px;
+}
+
+.booking-form .form-btn {
+	padding: 25px;
+}
+
+.booking-form .submit-btn {
+	background: #4583c2;
+	border: none;
+	text-transform: capitalize;
+	display: block;
+	border-radius: 5px;
+	width: 100%;
+	height: 75px;
+	font-size: 16px;
+	font-weight: 400;
+	color: #fff;
+}
+/*pagina destino*/
+
+
+
+/*página do contato*/
+
+html,                                            
+body {
+    overflow-x: hidden;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto';
+    font-weight: 300;
+}
+
+
+a,
+button{
+    display: inline-block;
+    padding: 14px 30px;
+    text-decoration: none;
+    color: #4583c2;
+    letter-spacing: 1.2px;
+    font-size: 14px;
+    border: 1px solid #243342;
+    border-radius: 7px;
+    margin-right: 20px;
+    transition: 0.15s ease-in-out;
+}
+a.focus,
+button{
+    color: white;
+    background:#4583c2;
+}
+a.focus:hover,
+button:hover{
+   color: #818390;
+}
+a:hover {
+    background-color: #5ca2e9; 
+    color:#4583c2;
+}
+
+
+
+
+
+nav h1 {
+    color: white;
+    font-weight: 300;
+    font-size: 22px;
+    letter-spacing: 1.2px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    padding: 5px 15px;
+    font-weight: 300;
+   
+    border: none;
+    margin: 0;
+}
+a.active {
+    color: white;
+    font-weight: 500;
+}
+
+
+.content{
+	position: fixed;
+	top: 60px;
+	height: calc(100vh - 60px);
+	width: 100vw;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	overflow: auto;
+	padding: 20px;
+}
+
+
+.contact{
+	width: 80%;
+	max-width: 1080px;
+	display: flex;
+	 box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.28); 
+border-radius: 5px;
+ overflow: hidden;
+}
+
+
+.other{
+	width: 60%;
+	background-image: url(cards/card_4.jpg);
+	background-size: cover;
+	background-position: center;
+	position: relative;
+	display: flex;
+ flex-direction: column;
+ justify-content: flex-end;
+}
+
+
+.other:before{
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+}
+
+
+
+.form{
+	width: 40%;
+	background-color: white;
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	
+}
+.form h1{
+	text-align: center;
+	margin-bottom: 20px;
+	width: 100%;
+}
+.form form{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+}
+.flex-rev {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-bottom: 10px;
+		width: 100%;
+}
+
+.flex-rev input, .flex-rev textarea {
+    border: none;
+    background-color: #e6e6e6;
+    padding: 12px 10px;
+    font-size: 16px;
+    resize: none;
+    margin-top: 7px;
+    margin-bottom: 16px;
+    border-radius: 5px;
+    color: #4674a1;
+    outline-color: #4674a1;
+    outline-width: thin;
+	 -webkit-appearance: none;
+}
+.flex-rev textarea{
+	height: 150px;
+}
+button{
+	-webkit-appearance: none;
+	margin-right: 0;
+}
+
+
+.info {
+    position: relative;
+    padding: 20px;
+}
+
+
+
+.info h2 {
+    color: #fff;
+    font-size: 34px;
+}
+
+.info h3 {
+    color: white;
+    letter-spacing: 1.2px;
+    margin-top:  20px;
+}
+
+.svg-wrap {
+    display: flex;
+    margin-top: 14px;
+}
+
+.svg-wrap a {
+    border: 0;
+    padding: 0;
+    display: flex;
+    color: #bbbbbb;
+    font-size: 16px;
+    justify-content: center;
+    align-items: center;
+    font-style: italic;
+}
+
+.svg-wrap a svg {
+    width: 20px;
+    height: 20px;
+    fill: white;
+    transition: fill 0.2s ease-in-out;
+    margin-right: 13px;
+}
+
+.svg-wrap a:hover svg {
+    fill: #4583c2;
+    
+}
+
+.svg-wrap a:hover {
+    background-color: transparent;
+    color: #4583c2;
+    cursor: pointer;
+}
+
+
+
+@media screen and (max-width: 900px){
+	.content{
+		padding: 10px 0 0;
+		display: block;
+	}
+	.map{
+		display: none;
+	}
+	.contact{
+		width: 100%;
+		flex-direction: column-reverse;
+		border-radius: 0;
+		box-shadow: 0px 0px 0px 0px;
+	}
+	.other{
+		width: 100%;
+		padding: 20px 0;
+	}
+	.form{
+		width: 100%;
+	}
+}
+
+.contact-form{
+  background-color: #fff;
+  box-shadow: rgba(0,0,0,0.35) 0 5px 15px; 
+  padding: 40px 30px; 
+}
+
+.contact-form .btn{
+    background: blue;
+    text-transform: uppercase;
+    font-weight: 10px 50px;
+    letter-spacing: 2px;
+}
+
+.contact-form{
+  background-color: #fff;
+  box-shadow: rgba(0,0,0,0.35) 0 5px 15px; 
+  padding: 40px 30px; 
+}
+
+.contact-form .btn{
+    background: blue;
+    text-transform: uppercase;
+    font-weight: 10px 50px;
+    letter-spacing: 2px;
+}
+
+
+/*fim da página contato*/
+
+
+home-testimonial{background-color: #231834;height: 380px}.home-testimonial-bottom{background-color: #f8f8f8;transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;margin-top: 20px;margin-bottom: 0px;position: relative;height: 130px;top: 190px}.home-testimonial h3{color: var(--orange);font-size: 14px;font-weight: 500;text-transform: uppercase}.home-testimonial h2{color: white;font-size: 28px;font-weight: 700}.testimonial-inner{position: relative;top: -174px}.testimonial-pos{position: relative;top: 24px}.testimonial-inner .tour-desc{border-radius: 5px;padding: 40px}.color-grey-3{font-family: 'Roboto';font-size: 14px;color: #6c83a2}.testimonial-inner img.tm-people{width: 60px;height: 60px;-webkit-border-radius: 50%;border-radius: 50%;-o-object-fit: cover;object-fit: cover;max-width: none}.link-name{font-family: "Montserrat", Sans-serif;font-size: 14px;color: #6c83a2}.link-position{font-family: "Montserrat", Sans-serif;font-size: 12px;color: #6c83a2}
+
+
+
+
+/* Reposividade*/
+
+@media only screen and(min-width:768px){
+    .carousel-caption{
+        bottom: 37px;
+    }
+    .carousel-caption{
+        width: 100%;
+    }
+}
+
+.card{
+    margin-bottom: 30px;
+}
+
+.img-area{
+    width: 100%;
+}
+
+
+@media only screen and (max-width:767px){
+    .navbar-nav{
+        text-align: center;
+    }
+    .card-body{
+        display: justify;
+        
+    }
+    .carousel-caption{
+        bottom: 125px;
+    }
+    .carousel-caption h5{
+        font-size: 17px;
+    }
+    .carousel-caption a{
+        padding: 10px 15px;
+    }
+    .carousel-caption p{
+        width: 100%;
+        line-height: 1.6;
+        font-size: 12px;
+    }
+}
